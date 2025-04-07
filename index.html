@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Салон краси "Гармонія"</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #f3d9e2;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        nav {
+            background-color: #eac4d5;
+            padding: 10px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            padding: 10px 15px;
+            border-radius: 10px;
+            transition: background 0.3s;
+        }
+        nav a:hover {
+            background-color: #dba4bb;
+            color: white;
+        }
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        .image-grid img {
+            width: 100%;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .image-grid img:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            background-color: #f3d9e2;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+            box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        h2 {
+            color: #eac4d5;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Салон краси "Гармонія"</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#services">Послуги</a></li>
+            <li><a href="#about">Про нас</a></li>
+            <li><a href="#contacts">Контакти</a></li>
+        </ul>
+    </nav>
+    <section id="gallery">
+        <div class="image-grid">
+            <img src="4.jpg" alt="Салон краси 1">
+            <img src="2.jpg" alt="Салон краси 2">
+            <img src="3.jpg" alt="Салон краси 3">
+            <img src="1.jpg" alt="Салон краси 4">
+        </div>
+    </section>
+    <section id="services">
+        <h2>Наші послуги</h2>
+        <p>Ми пропонуємо широкий спектр послуг для вашої краси і комфорту:</p>
+        <ul>
+            <li>Стрижки для чоловіків і жінок</li>
+            <li>Манікюр і педикюр</li>
+            <li>Косметичні процедури</li>
+            <li>Масажі для релаксації</li>
+            <li>Догляд за шкірою обличчя</li>
+        </ul>
+        <p>Всі наші послуги виконуються досвідченими майстрами, які працюють тільки з якісними матеріалами.</p>
+    </section>
+    <section id="about">
+        <h2>Про нас</h2>
+        <p>Салон краси "Гармонія" — це місце, де ви можете відчути себе по-справжньому комфортно. Ми працюємо вже понад 10 років і завжди прагнемо надавати нашим клієнтам найкращі послуги.</p>
+        <p>Наші майстри проходять постійне навчання, щоб бути в курсі всіх новинок в індустрії краси. Завітайте до нас і переконайтеся самі!</p>
+    </section>
+    <footer>
+        <p>Контакти: вул. Краси, 10, Київ</p>
+        <p>Телефон: +38 (067) 123-45-67</p>
+        <p>Номер постійного зв’язку: +38 (050) 987-65-43</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
